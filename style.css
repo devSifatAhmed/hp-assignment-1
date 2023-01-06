@@ -117,4 +117,163 @@
     color: #444343;
 }
 
+.ab-right>ul>li>span {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+}
+
+.ab-right>ul>li {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.ab-right>ul>li>i {
+    font-size: 14px;
+    color: #16D887;
+}
+
 /* about section end */
+
+
+
+
+/* my-plan section start */
+#myplan {
+    width: 100%;
+    padding: 100px 0;
+}
+
+.mp-container {
+    max-width: 1150px;
+    flex-grow: 1;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    text-align: center;
+}
+
+.mp-container>h1 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+}
+
+.mp-plans {
+    display: flex;
+    justify-content: center;
+}
+
+.mp-plan {
+    flex-basis: 25%;
+}
+
+.mp-plan>.text {
+    margin-top: 10px;
+}
+
+.mp-plan>.text>h2 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #151414;
+}
+
+.mp-plan>.text>p {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    color: #737272;
+    margin-top: 10px;
+}
+
+/* my-plan section end */
+
+
+
+/* banner section start */
+#banner {
+    width: 100%;
+    padding: 50px 0;
+}
+
+.bnr-container {
+    max-width: 1150px;
+    flex-grow: 1;
+    margin: 0 auto;
+    background: linear-gradient(90deg, #005FAC 0%, #005fac00 100%), url(./images/watch.png);
+    padding: 50px 40px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+}
+
+.bnr-container>.text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 450px;
+}
+
+.bnr-container>.text>h1 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+}
+
+.bnr-container>.text>a {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #005FAC;
+    padding: 15px 25px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+    border: 2px solid transparent;
+    width: fit-content;
+}
+
+.bnr-container>.text>a:hover {
+    background: transparent;
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+}
+
+/* banner section end */
+
+
+
+
+/* footer section start */
+footer{
+    width: 100%;
+    padding: 100px 0;
+    background: #151414;
+}
+.f-container{
+    max-width: 1150px;
+    flex-grow: 1;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+/* footer section end */
