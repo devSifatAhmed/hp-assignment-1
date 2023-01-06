@@ -4,6 +4,7 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
+    outline: none;
 }
 
 /* hero section start */
@@ -264,16 +265,140 @@
 
 
 /* footer section start */
-footer{
+footer {
     width: 100%;
     padding: 100px 0;
     background: #151414;
 }
-.f-container{
+
+.f-container {
     max-width: 1150px;
     flex-grow: 1;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+}
+
+.f-left {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 500px;
+}
+
+.f-left>h1 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #F8F8F8;
+}
+
+.f-left>p,
+.f-left>p>a {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.social-links {
+    display: flex;
+    gap: 15px;
+}
+
+.social-links>a {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    background: #ffffff;
+    border: 2px solid transparent;
+    transition: 0.3s ease-in-out;
+    font-size: 20px;
+}
+
+.social-links>a:nth-child(1) {
+    color: #005FAC;
+}
+
+.social-links>a:nth-child(2) {
+    color: #1DA1F2;
+}
+
+.social-links>a:nth-child(3) {
+    color: #FF0000;
+}
+
+.social-links>a:hover {
+    background: transparent;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+}
+
+
+
+.f-right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.f-right>h2 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.f-right>.input-box {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.f-right>.input-box>input {
+    width: 330px;
+    padding: 20px;
+    border: 1.5px solid #ffffff;
+    background: transparent;
+    border-radius: 8px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #F3F3F3;
+}
+
+.f-right>.input-box>input::placeholder {
+    color: #F3F3F3;
+}
+
+.f-right>.input-box>button {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background: #005FAC;
+    border: 2px solid transparent;
+    padding: 15px 25px;
+    width: fit-content;
+    border-radius: 8px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+.f-right>.input-box>button:hover{
+    background: transparent;
+    border: 2px solid #ffffff;
 }
 /* footer section end */
